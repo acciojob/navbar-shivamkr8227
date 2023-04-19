@@ -15,7 +15,7 @@ nav{
 	border-left:none;
 	margin:0px;
 }
-li{
+ul > li{
 	padding-top:18px;
 	padding-bottom:18px;
 	padding-left:27px;
