@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+nav{
+	display:flex;
+	font-size:18px;
+}
+.container{
+	display:flex;
+	list-style-type:none;
+	border-right:none;
+	margin:0px;
+}
+.cont2{
+	display:flex;
+	list-style-type:none;
+	border-left:none;
+	margin:0px;
+}
+li{
+	padding-top:18px;
+	padding-bottom:18px;
+	padding-left:27px;
+	padding-right:27px;
+	border:2px solid white;
+	background-color:#6e072d;
+}
+.lli{
+	border-right:0px;
+	text-align:left;
+}
+.rli{
+	border-left:0px;
+	text-align:right;
+}
+li.hover{
+	background-color:#b90e4d;
+	cursor:pointer;
+}
